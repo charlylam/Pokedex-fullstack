@@ -1,0 +1,25 @@
+@baseUrl=http://localhost:8000
+@TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJpYXQiOjE3NzM3NTIxNDMsImV4cCI6MTc3Mzc1NTc0M30.rLj3uZ7Wc7NW9POTPVtIzo19vD2xtEA-QDoyjARzWRI
+
+### Add a new user
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "username": "Djo",
+  "email": "djo@djo.com",
+  "password": "jojolebarjo"
+}
+
+### Login user
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "Djo",
+  "password": "jojolebarjo"
+}
+
+### get user
+GET {{baseUrl}}/auth/me
+Authorization: Bearer {{TOKEN}}

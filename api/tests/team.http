@@ -1,0 +1,37 @@
+@baseUrl = http://localhost:8000
+
+### Get all teams
+GET {{baseUrl}}/teams
+
+### Add a new team
+POST {{baseUrl}}/teams
+Content-Type: application/json
+
+{
+  "name": "Los Dinguos",
+  "description": "Hasta la pasta siempre"
+}
+
+### Get one team by ID
+GET {{baseUrl}}/teams/12
+
+### Delete one team by ID
+DELETE {{baseUrl}}/teams/4
+
+
+### Update one team by ID
+PATCH {{baseUrl}}/teams/5
+Content-Type: application/json
+
+{
+  "name": "only title"
+}
+
+### Add a new pkemon to a team
+PUT {{baseUrl}}/teams/1/pokemons/10
+Content-Type: application/json
+
+
+### Add a new pkemon to a team
+DELETE {{baseUrl}}/teams/1/pokemons/10
+Content-Type: application/json

@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:8000
+
+### Get all types
+GET {{baseUrl}}/types
+
+### Get one type by ID
+GET {{baseUrl}}/types/2

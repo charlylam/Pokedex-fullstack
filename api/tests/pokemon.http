@@ -1,0 +1,22 @@
+@baseUrl = http://localhost:8000
+
+### Get all pokemons
+GET {{baseUrl}}/pokemons
+
+### Get one pokemon by ID
+GET {{baseUrl}}/pokemons/1
+
+### Get one pokemon by filter
+GET {{baseUrl}}/pokemons?name=dra
+
+### Compare 2 pokemons
+GET {{baseUrl}}/pokemons/compare/1/3
+
+### Add vote to pkemon
+POST {{baseUrl}}/pokemons/1/votes
+
+### Get pokemon's vote
+GET {{baseUrl}}/pokemons/1/votes
+
+### Get pokemon podium
+GET {{baseUrl}}/pokemons/podium
