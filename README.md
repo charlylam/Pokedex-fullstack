@@ -26,6 +26,7 @@ Application web fullstack permettant de consulter des Pokémon, créer des équi
 - Liste complète des 151 Pokémon (Gen 1)
 - Affichage des statistiques
 - Types associés avec couleurs dynamiques
+- Comparaison de 2 Pokémon
 - Page détail Pokémon  
 
 ### 🧬 Types
