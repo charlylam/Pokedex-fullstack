@@ -12,6 +12,11 @@ Application web fullstack permettant de consulter des Pokémon, créer des équi
 - 🖼️ Images officielles des Pokémon
 - 🎨 Types colorés dynamiques
 - ⚡ Navigation rapide avec SvelteKit
+  
+
+  ![pokedex](gif1.gif)
+
+    ![pokedex](gif2.gif)
 
 ---
 
