@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="SObhyEY_4gl6zNT_soaQ" name="Page-1">
+        <mxGraphModel dx="1764" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="70" width="850" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Pokedex&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-0.5" y="70" width="850" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 21px; background-color: transparent;&quot;&gt;&lt;b&gt;Mon Pokédex&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;Un Pokédex interactif pour explorer les Pokémon, comparer leurs caractéristiques et créer vos propres équipes en toute simplicité.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="210" width="380" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 14px;&quot;&gt;&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Recherche&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Recherche par nom&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="443" y="225" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Votes&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Voir le podium&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="443" y="325" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Equipes&lt;/b&gt;&lt;/font&gt;&lt;div&gt;Créer ses équipes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="643" y="325" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Comparaison&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Comparer deux pokémons&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="643" y="225" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Pokemons&lt;/span&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="277" y="107" width="83" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Comparer" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="368" y="107" width="83" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Types" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="458" y="107" width="83" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Podium" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="549" y="107" width="83" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Equipes" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="639" y="106.5" width="88" height="33.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Deconnexion" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="737" y="106.25" width="93" height="33.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="339.5" y="460" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Voir les pokémons&lt;/span&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="96" y="372" width="120" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Voir les équipes&lt;/span&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="236" y="372" width="120" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="458" y="233" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="458" y="333" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="233" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="333" width="20" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
