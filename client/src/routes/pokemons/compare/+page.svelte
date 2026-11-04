@@ -1,5 +1,7 @@
 <script>
 	import { comparePokemons } from '$lib/api/pokemons';
+	import { onMount } from 'svelte';
+	import { apiFetch } from '$lib/api/client.js';
 
 	let id1 = $state('');
 	let id2 = $state('');
@@ -7,6 +9,7 @@
 	let p2 = $state(null);
 	let error = $state('');
 	let loading = $state(false);
+	let pokemons = $state([]);
 
 	async function compare() {
 		error = '';
@@ -24,18 +27,37 @@
 			loading = false;
 		}
 	}
+
+	onMount(async () => {
+  try {
+    const data = await apiFetch('/pokemons');
+    pokemons = Array.isArray(data) ? data : (data.pokemons ?? []);
+  } catch (e) {
+    error = e.message;
+  }
+});
 </script>
 
 <div class="space-y-6">
 	<div>
 		<h1 class="text-3xl font-bold">Comparer deux pokémons</h1>
-		<p class="text-slate-600">Entre les numéros de deux pokémons pour comparer leurs stats</p>
+		<p class="text-slate-600">Choisis deux pokémons pour comparer leurs stats</p>
 	</div>
 
 	<div class="box flex flex-col gap-4 sm:flex-row">
-		<input class="input" type="number" bind:value={id1} placeholder="Premier pokémon" />
-		<input class="input" type="number" bind:value={id2} placeholder="Second pokémon" />
-		<button class="btn" on:click={compare}>Comparer</button>
+<select class="input" bind:value={id1}>
+        <option value="">Premier pokémon</option>
+        {#each pokemons as p (p.id)}
+                <option value={p.id}>#{p.id} {p.name}</option>
+        {/each}
+</select>
+<select class="input" bind:value={id2}>
+        <option value="">Second pokémon</option>
+        {#each pokemons as p (p.id)}
+                <option value={p.id}>#{p.id} {p.name}</option>
+        {/each}
+</select>
+<button class="btn" onclick={compare} disabled={!id1 || !id2 || loading}>Comparer</button>
 	</div>
 
 	{#if loading}
