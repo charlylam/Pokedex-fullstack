@@ -6,7 +6,10 @@ export const sequelize = new Sequelize(process.env.PG_URL, {
         createdAt: "created_at",
         updatedAt: "updated_at"
     },
-    loggin: false
+    logging: false,
+    dialectOptions: process.env.PG_SSL === "true"
+        ? { ssl: { require: true, rejectUnauthorized: false } }
+        : {},
 });
 
 await sequelize.authenticate();

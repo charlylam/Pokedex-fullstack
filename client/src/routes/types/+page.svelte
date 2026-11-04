@@ -1,9 +1,10 @@
 <script>
+import { API_URL } from '$lib/api/client.js';
 	import { onMount } from 'svelte';
 	let types = $state([]);
 	onMount(async () => {
 		try {
-			const res = await fetch('http://localhost:8000/types');
+			const res = await fetch(`${API_URL}/types`);
 			types = await res.json();
 		} catch (err) {
 			console.error('Erreur chargement types :', err);
